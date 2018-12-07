@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import image from '../images/joshua-rodriguez-422768-unsplash.jpg';
+import image from '../images/joshua-rodriguez-422768-unsplash-min.jpg';
 
 const TopLeft = styled.div`
   grid-column-start: 1;
@@ -11,6 +11,8 @@ const TopLeft = styled.div`
   background-image: url('${image}');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
 `;
 
 export default TopLeft;

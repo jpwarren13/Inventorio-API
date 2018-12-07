@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import image from '../images/toa-heftiba-578073-unsplash.jpg';
+import image from '../images/toa-heftiba-578073-unsplash-min.jpg';
 
 const TopRight = styled.div`
   grid-column-start: 2;
@@ -11,6 +11,8 @@ const TopRight = styled.div`
   background-image: url('${image}');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
 `;
 
 export default TopRight;
